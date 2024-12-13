@@ -32,7 +32,7 @@ app.use('/auth', AuthRouter);
 app.get('/', async (req, res) => {
     res.send("You are in the home page");
 });
-const port = process.env.PORT || 6001
+const port = process.env.PORT || 6002
 app.listen(port, () => {
     console.log('Server is started');
 });
